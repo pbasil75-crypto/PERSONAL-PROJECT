@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>PRESIDOX-Roommates & Rentals</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<header class="site-header">
+			<div class="container header-inner">
+				<h1 class="brand">FindRoom</h1>
+				<nav class="nav">
+					<a class="nav-link" href="#listings">Listings</a>
+					<a class="nav-link" href="#profiles">Roommates</a>
+					<a class="nav-link" href="#post">Post</a>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<section class="hero">
+				<div class="container hero-inner">
+					<div class="hero-copy">
+						<h2>Find a roommate or rent an apartment quickly</h2>
+						<p>Search listings, filter by budget and neighbourhood, and contact potential roommates.</p>
+						<form class="search-form" id="searchForm" aria-label="Search listings">
+							<input type="search" name="q" placeholder="City, neighborhood, or keyword" />
+							<select name="type">
+								<option value="any">Any</option>
+								<option value="room">Room</option>
+								<option value="apartment">Apartment</option>
+							</select>
+							<button class="btn btn--primary" type="submit">Search</button>
+						</form>
+					</div>
+					<div class="hero-art" aria-hidden="true"></div>
+				</div>
+			</section>
+
+			<section id="listings" class="container listings">
+				<h3>Featured listings</h3>
+				<div class="grid">
+					<article class="card" data-image-id="listing-1">
+						<div class="card-media">
+							<img src="images/house 4.webp" alt="Sunny room interior" loading="lazy">
+						</div>
+						<div class="card-body">
+							<h4>Sunny Room in 3BR Apartment</h4>
+							<p class="muted">Downtown — $700 / month</p>
+							<div class="card-actions">
+								<button class="btn btn--primary">Contact</button>
+								<button class="btn btn--outline">View</button>
+							</div>
+						</div>
+					</article>
+
+					<article class="card" data-image-id="listing-2">
+						<div class="card-media">
+							<img src="images/house 5.webp" alt="Cozy studio interior" loading="lazy">
+						</div>
+						<div class="card-body">
+							<h4>Cozy Studio Near Park</h4>
+							<p class="muted">Riverside — $350 / Yearly</p>
+							<div class="card-actions">
+								<button class="btn btn--primary">Contact</button>
+								<button class="btn btn--outline">View</button>
+							</div>
+						</div>
+					</article>
+
+					<article class="card" data-image-id="listing-3">
+						<div class="card-media">
+							<img src="images/house2.webp" alt="Spacious apartment interior" loading="lazy">
+						</div>
+						<div class="card-body">
+							<h4>Spacious 2BR — Pet Friendly</h4>
+							<p class="muted">Northside — $1,200 / month</p>
+							<div class="card-actions">
+								<button class="btn btn--primary">Contact</button>
+								<button class="btn btn--outline">View</button>
+							</div>
+						</div>
+					</article>
+				</div>
+			</section>
+
+			<section id="profiles" class="container profiles">
+				<h3>Roommate profiles</h3>
+				<div class="grid small">
+					<div class="profile card">
+						<div class="avatar"></div>
+						<div>
+							<span class="emoji" aria-hidden="true"></span>
+							<strong class="profile-name">Alex</strong>
+							<p class="muted">Student, 24 — Tidy, non-smoker</p>
+						</div>
+						<div class="card-actions">
+							<button class="btn btn--secondary">Message</button>
+						</div>
+					</div>
+
+					<div class="profile card">
+						<div class="avatar"></div>
+						<div>
+							<span class="emoji" aria-hidden="true"></span>
+							<strong class="profile-name">Jamie</strong>
+							<p class="muted">Designer, 29 — Works remotely</p>
+						</div>
+						<div class="card-actions">
+							<button class="btn btn--secondary">Message</button>
+						</div>
+					</div>
+
+					<div class="profile card">
+						<div class="avatar"></div>
+						<div>
+							<span class="emoji" aria-hidden="true"></span>
+							<strong class="profile-name">Emily</strong>
+							<p class="muted">Student, 22 — Tidy, non-smoker</p>
+						</div>
+						<div class="card-actions">
+							<button class="btn btn--secondary">Message</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="post" class="container post-call">
+				<h3>Have a place to share?</h3>
+				<p class="muted">Post your listing and find roommates in minutes.</p>
+				<button class="btn btn--primary">Create a listing</button>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<div class="container">
+				<p>&copy; 2026 FindRoom — Built for finding homes and roommates.</p>
+			</div>
+		</footer>
+
+		<script src="script.js" defer></script>
+	</body>
+</html>
+

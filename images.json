@@ -1,0 +1,25 @@
+{
+  "listings": {
+    "listing-1": {
+      "src": "images/house1.webp",
+      "alt": "Sunny bedroom with large window",
+      "objectFit": "cover",
+      "filter": "brightness(0.98)",
+      "loading": "lazy"
+    },
+    "listing-2": {
+      "src": "images/house 5.webp",
+      "alt": "Cozy studio interior",
+      "objectFit": "cover",
+      "filter": "saturate(1.05)",
+      "loading": "lazy"
+    },
+    "listing-3": {
+      "src": "images/house2.webp",
+      "alt": "Spacious living room",
+      "objectFit": "cover",
+      "filter": "contrast(1.02)",
+      "loading": "lazy"
+    }
+  }
+}

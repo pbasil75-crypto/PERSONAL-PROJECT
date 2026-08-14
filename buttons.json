@@ -1,0 +1,12 @@
+{
+  "buttons": {
+    "default": { "padding": "12px 18px", "fontSize": "16px", "borderRadius": "8px" },
+    "small": { "padding": "8px 12px", "fontSize": "14px", "borderRadius": "6px", "maxWidth": "220px" },
+    "large": { "padding": "16px 22px", "fontSize": "18px", "borderRadius": "10px" }
+  },
+  "breakpoints": {
+    "mobile": { "maxWidth": 600, "buttonStyle": "small" },
+    "tablet": { "maxWidth": 900, "buttonStyle": "default" },
+    "desktop": { "minWidth": 901, "buttonStyle": "large" }
+  }
+}
